@@ -1,0 +1,154 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>HackMe - Контакты</title>
+<link rel="icon" href="fav.ico"> 
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+
+<link href="tooplate_style.css" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript" src="js/jquery-1.6.3.min.js" ></script>
+<script type="text/javascript" src="js/jquery-ui.min.js" ></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$("#featured > ul").tabs({fx:{opacity: "toggle"}}).tabs("rotate", 5000, true);
+	});
+</script>
+
+<link rel="stylesheet" type="text/css" href="css/ddsmoothmenu.css" />
+
+<script type="text/javascript" src="js/ddsmoothmenu.js">
+
+
+
+</script>
+
+<script type="text/javascript">
+
+ddsmoothmenu.init({
+	mainmenuid: "tooplate_menu", //menu DIV id
+	orientation: 'h', //Horizontal or vertical menu: Set to "h" or "v"
+	classname: 'ddsmoothmenu', //class added to menu's outer DIV
+	//customtheme: ["#1c5a80", "#18374a"],
+	contentsource: "markup" //"markup" or ["container_id", "path_to_menu_file"]
+})
+
+</script>
+
+<link rel="stylesheet" href="css/slimbox2.css" type="text/css" media="screen" /> 
+<script type="text/JavaScript" src="js/slimbox2.js"></script> 
+
+
+
+</head>
+<body>
+
+<div id="tooplate_header_wrapper">
+	<div id="tooplate_header">
+    	<div id="site_title"><a href="index.html"> </a></div>
+        <div id="tooplate_search">
+            <form action="#" method="get">
+              <input type="text" value=" " name="keyword" id="keyword" title="keyword" onfocus="clearText(this)" onblur="clearText(this)" class="txt_field" />
+              <input type="submit" name="Search" value=" " alt="Search" id="searchbutton" title="Search" class="sub_btn"  />
+            </form>
+            <ul id="social">
+                <li><a href="https://www.instagram.com/"><img src="images/instagram.png" alt="instagram" /></a></li>
+                <!--<li><a href="#"><img src="images/facebook.png" alt="Facebook" /></a></li> -->
+                <li><a href="https://vk.com/"><img src="images/vk.png" alt="Vk" /></a></li>
+				<!-- <li><a href="*"><img src="images/linkedin.png" alt="Linkedin" /></a></li> -->
+            </ul>
+        </div>
+        <ul id="top_menu">
+        	<li><a href="index.html">Главная</a></li>
+            <li><a href="contact.html">Контакты</a></li>
+        </ul>
+        
+    </div> <!-- END of header -->
+</div> <!-- END of header wrapper -->
+
+<div id="tooplate_wrapper">
+
+         <div id="tooplate_menu" class="ddsmoothmenu">
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+               <!-- <li><a href="news.html">News</a> 
+                    <ul>
+                        <li><a href="news.html">Category One</a></li>
+                        <li><a href="news.html">Category Two</a></li>
+                        <li><a href="news.html">Category Three</a></li>
+                        <li><a href="news.html">Category Four</a></li>
+                        <li><a href="news.html">Category Five</a></li>                                                                        
+                  </ul>
+                </li>-->
+               <!--  <li><a href="gallery.html">Gallery</a></li> -->
+                <li><a href="about.html">О нас</a></li>                
+                <li class="last"><a href="contact.html" class="selected">Контакты</a></li>
+            </ul>
+            <br style="clear: left" />
+        </div> <!-- end of tooplate_menu -->
+
+    <div id="tooplate_main"> <div id="tooplate_main_bottom"></div>
+		
+        <h2>Контакты</h2>
+            <div id="contact_form" class="col_3">
+                <h3>Отправить сообщение</h3>
+                <form method="post" name="contact" action="#">
+                    <label for="author">Имя:</label>
+                    <input type="text" id="author" name="author" class="input_field" />
+
+                    <label for="email">Email:</label>
+                    <input type="text" id="email" name="email" class="input_field" />
+
+                   
+
+                    <label for="text">Сообщение:</label> <textarea id="text" name="text" rows="0" cols="0" class="required"></textarea>
+                    <input type="Отправить" name="Отправить" value="Отправить" class="submit_btn" />
+                </form>
+            </div> 
+            <div class="col_3">
+                
+                    
+                <h3>Номер: xxx-xxx-xxxx<br />
+              	Почта : xxxxxx@mail.ru<br /><br /></h3>
+                    
+              
+                
+                <div class="clear h30"></div>
+
+               
+                
+                <br />
+               
+	  </div>
+			
+            
+            	
+        <div class="clear"></div>
+    </div>
+
+	<div id="tooplate_footer">
+    	<div class="col_5">
+        	<h4>Страницы</h4>
+            <ul class="nobullet bottom_list">
+            	<li><a href="index.html">Главная</a></li>
+              <!-- <li><a href="news.html">News</a></li> -->
+               <!-- <li><a href="gallery.html">Gallery</a></li>  -->
+                <li><a href="about.html">О нас</a></li>
+                <li><a href="contact.html">Контакты</a></li>
+            </ul>
+        </div>
+        
+       
+       
+        <div class="clear"></div>
+    </div> <!-- END of tooplate_footer -->
+</div> <!-- END of tooplate_wrapper -->
+<div id="tooplate_copyright_wrapper">
+    <div id="tooplate_copyright">
+        Copyright ©HackMe
+    </div>
+</div>
+</body>
+</html>
